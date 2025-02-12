@@ -1,0 +1,38 @@
+Professor Érick
+
+Componentes:
+
+    --Microcontrolador:
+        -> Processa os dados e executa a programação, pode ser substituido em caso de problema (os integrados não da para trocar);
+    
+    --Portas analógicas:
+        -> suporta de 0 até 1024;
+        -> Aplicaões:
+            -> Leitura de sensores analógicos, !cuidado: Tem uns que não são analogicos, que tem q ser mudado para analogioco;
+
+    --Portas digitais
+        -> 0 ou 1;
+        -> PWM~ 0 a 255;
+        -> Serial (RX e TX);
+        -> Aplicações:
+            -> Leitura de sensores digitais;
+            -> Acionamento de atuadores;
+            -> Comunicação;
+    
+    --Entrada jack
+        -> Serve como alimentação externa para a placa;
+
+    --Entrada usb
+        -> Utilizada para possibilitar a gravação do firmware no microcontrolador. Tambem faz comunicação serial;
+    
+    --Vin
+        -> Serve como alimentação externa para a placa. Caso for conectada alguma fonte de energia, Nuca conecte outra fonte de energia;
+
+    --GND
+        -> Pontos de aterramento("terra") da placa;
+
+    --3.3V
+        -> Fornece a tensão de 3.3V;
+
+    --Reset
+        -> Serve ára reiniciar a placa;
